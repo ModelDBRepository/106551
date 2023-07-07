@@ -48,18 +48,18 @@ nash=0.
 //**************************************************************************
 // DETERMINAZIONE NUMERO DI COMPARTIMENTI
 //**************************************************************************
-// In questo caso il numero di compartimenti Ë uguale al numero dei segmenti
-// col quale Ë stato discretizzato il neurone e ricostruita la morfologia.
-// E' stato visto che la lunghezza tipica di cavo per le propriet‡ biofisiche
-// del presente neurone Ë molto pi˘ grande delle dimensioni tipiche di ciascun
-// compartimento, cosÏ la differenza di potenziale tra adiacenti compartimenti
-// Ë molto piccola. CiÚ ci interessa perchË vogliamo calcolare il campo
+// In questo caso il numero di compartimenti √® uguale al numero dei segmenti
+// col quale √® stato discretizzato il neurone e ricostruita la morfologia.
+// E' stato visto che la lunghezza tipica di cavo per le propriet√† biofisiche
+// del presente neurone √® molto pi√π grande delle dimensioni tipiche di ciascun
+// compartimento, cos√¨ la differenza di potenziale tra adiacenti compartimenti
+// √® molto piccola. Ci√≤ ci interessa perch√® vogliamo calcolare il campo
 // magnetico del neurone con un grado di precisione molto alto, ed abbiamo
 // bisogno di un numero molto elevato di segmentazioni del neurone.
 
   forall {nseg=n3d()-1} // Assegna un numero di compartimenti entro
                         // ciascuna sezione pari al numero di segmenti
-					    // in cui Ë stato sezionato.
+					    // in cui √® stato sezionato.
 
 //************************************************************************
 
@@ -79,9 +79,9 @@ access soma
 
 
 distance()  // Fissa il riferimento a x=0.5 nella sezione corrente
-            // in questo caso la sezione corrente Ë il soma. La
-			// distanza dal soma Ë importante perchË a seconda di
-			// essa varia la densit‡ dei vari canali ionici.
+            // in questo caso la sezione corrente √® il soma. La
+			// distanza dal soma √® importante perch√® a seconda di
+			// essa varia la densit√† dei vari canali ionici.
 
 xopen("synapses.hoc")  //Connessioni sinaptiche
 

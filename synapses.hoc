@@ -8,7 +8,7 @@ double rel[n_sin],ind[n_sin]
 
             // (rel) sono le posizioni all' interno della sottosezione
 //rel=0.33	// alla quale viene applicata la sinapsi. Esse variano dalla
-//rel1=rel	// coordinata x =[0,1], dove 0 è la coordinata più 
+//rel1=rel	// coordinata x =[0,1], dove 0 Ã¨ la coordinata piÃ¹ 
 //rel2=rel	// al soma.
            // Per l'articolo solo rel tutti uguali, con rel=0.33
 
@@ -69,13 +69,13 @@ peso=3.e-3	  //n-siemens
 //della sinapsi.
 //-------------------------------------------------------------
 //Conoscendo l' impedenza di ingresso K_ii(t) del sistema, tramite
-//convoluzione Š possibile ricavare la variazione del potenziale.
-//La sinapsi infatti Š una sorgente di corrente dipendente dal
-//tempo grazie alla conducibilit… dipendente dal tempo, e dal
+//convoluzione Å  possibile ricavare la variazione del potenziale.
+//La sinapsi infatti Å  una sorgente di corrente dipendente dal
+//tempo grazie alla conducibilitâ€¦ dipendente dal tempo, e dal
 //potenziale di membrana che anch' esso varia. Una volta conosciuto
 //la variazione di potenziale nel sito postsinaptico i, (il che
 //richiede la soluzione numerica di una equazione integrale di Volterra)
-//Š possibile ricavare il potenziale di membrana nel sito j, tramite
+//Å  possibile ricavare il potenziale di membrana nel sito j, tramite
 //un' altra equazione integrale di convoluzione. Vedi "Bioph. of comput."
 //pagg. 106-107.
 
@@ -108,12 +108,12 @@ for i=0, n_sin-1 {
 }
 
 //************************************************************************************************
-// Il processo di trasmissione sinaptica è di natura statistica ed assoggettata ad una probabilità 
-// di rilascio di neurotrasmettitori. La probabilità di rilascio sinaptica p è essa stessa soggetta
-// a variazioni dipendenti dalla storia recente del terminale presinaptico. P può descrescere,
+// Il processo di trasmissione sinaptica Ã¨ di natura statistica ed assoggettata ad una probabilitÃ  
+// di rilascio di neurotrasmettitori. La probabilitÃ  di rilascio sinaptica p Ã¨ essa stessa soggetta
+// a variazioni dipendenti dalla storia recente del terminale presinaptico. P puÃ² descrescere,
 // come nel caso della depressione a lungo temine, o aumentare come accade nel potenziamento.  
 // IL NetStim DETERMINA LE CARATTERISTICHE DELLA TERMINAZIONE PRESINAPTICA, MENTRE IL rsyn CONNETTE
-// LA TERMINAZIONE PRESINAPTICA AL NEURONE. CON NetCon LA SYNAPSI è CREATA.
+// LA TERMINAZIONE PRESINAPTICA AL NEURONE. CON NetCon LA SYNAPSI Ã¨ CREATA.
 //************************************************************************************************
 
 	                        		
@@ -127,9 +127,9 @@ for i=0, n_sin-1 {
 
 
 //Il problema dell' efficacia dell'azione eccitatoria in funzione della
-// distribuzione spaziale delle sinapsi è stata investigata da MEL(1992).
+// distribuzione spaziale delle sinapsi Ã¨ stata investigata da MEL(1992).
 // AMPA e non-NMDA sinapsi mostrano sturazione sinaptica, e l'addensamento
-// diminuisce l'efficacia del sistema. Ciò invece non è vero per sinapsi
+// diminuisce l'efficacia del sistema. CiÃ² invece non Ã¨ vero per sinapsi
 // NMDA per le quali si osserva invece il fenomeno opposto.
 //  		
 
