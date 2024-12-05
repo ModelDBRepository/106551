@@ -18,6 +18,7 @@ double rel[n_sin],ind[n_sin]
 //dendritico
 
 r = new Random(23453262255) 
+r.Random123()
 rel[0]=r.uniform(0.05, 0.6) 
 for i=1,n_sin-1 {
 rel[i]=r.repick()
@@ -28,6 +29,7 @@ rel[i]=r.repick()
 
  //,ind[n_sin]
 rr = new Random(456884557) 
+rr.Random123()
 ind[0]=int(rr.uniform(1,numapical+1))
 for i=1,n_sin-1 {
 ind[i]=rr.repick()
